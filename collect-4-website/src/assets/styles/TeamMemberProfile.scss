@@ -1,0 +1,121 @@
+
+
+.team-member-container
+{
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    cursor: pointer;
+    overflow: hidden;
+
+    .card-content
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        
+        h2, p
+        {
+            margin: 0;
+            padding: 0;
+            color: white;
+            text-shadow:
+                -1px -1px 0 #4C994C,
+                1px -1px 0 #4C994C,
+                -1px 1px 0 #4C994C,
+                1px 1px 0 #4C994C;
+        }
+
+        h2
+        {
+            font-size: 1.8rem;
+        }
+
+        p
+        {
+            font-size: 1rem;
+        }
+    }
+
+    &:hover .card-content
+    {
+        background: linear-gradient(135deg, #1A3C34, #2d5a1a);
+    } 
+}
+
+/* Small (Phones/Tablets) */
+
+@media (min-width: 600px)
+{
+
+}
+
+/* Medium (Tablets) */
+
+@media (min-width: 768px)
+{
+
+}
+
+/* Large (Desktops) */
+
+@media (min-width: 1024px)
+{
+    .team-member-container
+    {
+        .card-content
+        {
+            h2
+            {
+                font-size: 1rem;
+            }
+
+            p
+            {
+                font-size: 0.75rem;
+            }
+        }
+    }
+}
+
+/* Extra Large (Other Devices) */
+
+@media (min-width: 1200px)
+{
+
+}
+
+/*
+width: 22.5vw;
+        height: 200px;
+
+        .flip-card-front, .flip-card-back
+        {
+            h2
+            {
+                font-size: 1rem;
+            }
+        }
+
+        .flip-card-back
+        {
+            width: 22.5vw;
+            height: 27.5vh;
+
+            p
+            {
+                margin: 0;
+                padding: 1.5rem 1.5rem 1rem 1.5rem;
+                font-size: 0.7rem;
+                color: white;
+            }
+        }
+
+        .flip-card-front-overlay
+        {
+            bottom: 5px;
+            right: 5px;
+        }
+            */

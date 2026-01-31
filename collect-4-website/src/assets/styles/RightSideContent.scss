@@ -1,0 +1,85 @@
+.right-side-content-container
+{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+
+    .text-area
+    {
+        width: 35vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-area
+    {
+        width: 35vw;
+        height: 70vh;
+    }
+    
+    .left-side-image
+    {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+        border: 1px solid rgba(255,255,255,0.2);
+        filter: 
+            contrast(1.1) 
+            brightness(0.95) 
+            saturate(1.15);
+    }
+}
+
+
+
+
+/* Small (Phones/Tablets) */
+
+@media (min-width: 600px)
+{
+
+}
+
+/* Medium (Tablets) */
+
+@media (min-width: 768px)
+{
+
+}
+
+/* Large (Desktops) */
+
+@media (min-width: 1024px)
+{
+    .right-side-content-container
+    {
+        .text-area
+        {
+            width: 45vw;
+            height: 60vh;
+
+            h2
+            {
+                margin: 0;
+            }
+        }
+
+        .image-area
+        {
+            width: 50vw;
+            height: 60vh;
+        }
+    }
+}
+
+/* Extra Large (Other Devices) */
+
+@media (min-width: 1200px)
+{
+
+}
+
