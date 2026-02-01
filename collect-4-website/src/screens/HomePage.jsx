@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 // Importing Custom Components
 
-import ScrollToTop from '../components/ScrollToTop';
+import ScrollToTop from '../components/custom-components/ScrollToTop';
 import LandingSection from "../components/page-sections/LandingSection";
 import OurJourneySection from "../components/page-sections/OurJourneySection";
 import OurServicesSection from "../components/page-sections/OurServicesSection";

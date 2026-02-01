@@ -1,6 +1,6 @@
 // Importing React Components 
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 // Importing Styling Files
 
@@ -8,7 +8,7 @@ import "../assets/styles/MeetTheTeamPage.scss";
 
 // Importing Custom Components 
 
-import TeamMemberProfile from "../components/TeamMemberProfile";
+import TeamMemberProfile from "../components/TeamMemberProfile.jsx";
 
 // Importing Data Object Arrays
 
@@ -16,7 +16,11 @@ import { teamData } from "../data/TeamMembers.jsx";
 
 const MeetTheTeamPage = () => 
 {
-    document.title = "Collect 4 - Meet The Team";
+    // Setting Page Title 
+    
+    useEffect(() => {
+        document.title = "Collect 4 - Meet The Team";
+    })
 
     const [ selectedMember, setSelectedMember ] = useState(null);
 

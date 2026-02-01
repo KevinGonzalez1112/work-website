@@ -185,7 +185,8 @@ const Navigation = (props) =>
                                             lg: "0 0.5vw"
                                         },
                                         "&:hover": {
-                                            color: "#44BB21"
+                                            color: "#44BB21",
+                                            backgroundColor: "transparent"
                                         }
                                     }}
                                 >
