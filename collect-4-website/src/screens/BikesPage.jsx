@@ -10,9 +10,9 @@ import LeftSideContent from "../components/LeftSideContent";
 
 // Importing Required Images
 
-import RefurbishedBikes from "../assets/images/bicycles.jpg";
-import PartsAndAcc from "../assets/images/parts-and-accessories.jpg";
-import Repairs from "../assets/images/bike-repairs.jpg";
+//import RefurbishedBikes from "../assets/images/bicycles.jpg";
+//import PartsAndAcc from "../assets/images/parts-and-accessories.jpg";
+//import Repairs from "../assets/images/bike-repairs.jpg";
 
 const BikesPage = () => 
 {
@@ -21,6 +21,7 @@ const BikesPage = () =>
     return (
         <>
         <ScrollToTop />
+        {/*
         <div className = "bikespage-container">
 
             <LeftSideContent 
@@ -98,6 +99,7 @@ const BikesPage = () =>
                 <p>© 2026 by Collect 4 Reuse. All rights reserved.</p>
             </div>
         </div>
+        */}
         </>
     )
 }

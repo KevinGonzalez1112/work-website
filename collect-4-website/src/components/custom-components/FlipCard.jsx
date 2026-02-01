@@ -1,6 +1,6 @@
 // Importing Styling Files
 
-import "../assets/styles/FlipCard.scss";
+import "../../assets/styles/FlipCard.scss";
 
 const FlipCard = (props) =>
 {

@@ -36,13 +36,13 @@ body
 
 h1 
 {
-  font-size: clamp(3.8rem, 11vw, 4.5rem);
   font-family: 'Poppins', sans-serif;
+  font-size: 3.5rem;
   line-height: 1.1;
   font-weight: 900;
   letter-spacing: -0.02em;
   color: #2D5A4A;
-  margin-bottom: 2vh;
+  margin-bottom: 1rem;
 }
 
 h2
@@ -63,8 +63,8 @@ h3
 
 p, li
 {
-  font-size: 1.1rem;
   font-family: 'Inter', sans-serif;
+  font-size: 1rem;
   line-height: 1.6;
   color: #1A3C34;
 }
@@ -72,6 +72,11 @@ p, li
 li strong
 {
   font-weight: 800;
+}
+
+a 
+{
+  font-family: 'Poppins', sans-serif;
 }
 
 .section-break
@@ -82,11 +87,13 @@ li strong
 .footer-section
 {
   width: 100vw;
-  text-align: center;
-  padding: 1vh 0 1vh 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10rem 0 1rem 0;
   font-weight: bold;
   background-color: rgba(26, 60, 52, 0.75);
-
+  
   p
   {
     color: rgba(255, 255, 255, 0.95);
@@ -113,7 +120,7 @@ li strong
 {
   h1
   {
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.2;
   }
 
@@ -124,8 +131,11 @@ li strong
 
   p
   {
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.6;
+    font-weight: 400;
+    max-width: 36rem;
+    margin-bottom: 0.25vh;
   }
 
   li

@@ -10,11 +10,11 @@ import LeftSideContent from "../components/LeftSideContent";
 
 // Importing Required Images
 
-import Furniture from "../assets/images/furniture.jpg";
+/*import Furniture from "../assets/images/furniture.jpg";
 import Electronics from "../assets/images/electronics.jpg";
 import Sports from "../assets/images/sports-equipment.jpg";
 import Clothing from "../assets/images/furniture.jpg";
-import Charity from "../assets/images/charity.jpg";
+import Charity from "../assets/images/charity.jpg";*/
 
 const ReusePage = () => 
 {
@@ -23,7 +23,7 @@ const ReusePage = () =>
     return (
         <>
             <ScrollToTop />
-        
+        {/*
         <div className = "reusepage-container">
             <LeftSideContent 
                 title = "Refurbished Furniture"
@@ -170,6 +170,7 @@ const ReusePage = () =>
                 <p>© 2026 by Collect 4 Reuse. All rights reserved.</p>
             </div>
         </div>
+        */}
         </>
     )
 }

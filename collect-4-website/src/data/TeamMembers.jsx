@@ -1,12 +1,12 @@
 // Importing Images Required for each Member
 
-import Darryl from "../assets/images/darryl.jpg";
-import Harrison from "../assets/images/harrison.jpg"
-import Jason from "../assets/images/jason.jpg";
-import Kevin from "../assets/images/kevin.jpg";
-import Leonardo from "../assets/images/leonardo.jpg";
-import Rassam from "../assets/images/rassam.jpg";
-import Lee from "../assets/images/lee.jpg";
+import Darryl from "../assets/images/team-members/darryl.jpg";
+import Harrison from "../assets/images/team-members/harrison.jpg"
+import Jason from "../assets/images/team-members/jason.jpg";
+import Kevin from "../assets/images/team-members/kevin.jpg";
+import Leonardo from "../assets/images/team-members/leonardo.jpg";
+import Rassam from "../assets/images/team-members/rassam.jpg";
+import Lee from "../assets/images/team-members/lee.jpg";
 
 // Team Members Data Array
 
@@ -15,19 +15,25 @@ const teamData = [
         id: 0, 
         name: "Darryl Garvey",
         role: "Co-Founder",
-        image: Darryl
+        image: Darryl,
+        intro: 
+            ``
     },
     { 
         id: 1, 
         name: "Harrison Biddulph",
         role: "Co-Founder",
-        image: Harrison
+        image: Harrison,
+        intro: 
+            ``
     },
     { 
         id: 2, 
         name: "Jason Man",
         role: "Manager / Graphic Designer",
-        image: Jason
+        image: Jason,
+        intro: 
+            ``
     },
     {
         id: 3,
@@ -44,13 +50,17 @@ const teamData = [
         id: 4,
         name: "Leonardo Alvarez",
         role: "Team Member",
-        image: Leonardo
+        image: Leonardo,
+        intro: 
+            ``
     },
     {
         id: 5,
         name: "Rassam Miazi",
         role: "Team Member",
-        image: Rassam
+        image: Rassam,
+        intro: 
+            ``
     },
     {
         id: 6,
@@ -58,10 +68,7 @@ const teamData = [
         role: "Driver / Top 40 Single Holder",
         image: Lee,
         intro: 
-            `Lee became a part of the Collect 4 team in 2025, serving as our van driver and local legend while 
-            also doubling up as a DJ with a top 40 single under his belt. He handles deliveries and logistics with unmatched 
-            reliability alongside bringing his infectious energy and musical flair to our sustainable retail mission, connecting 
-            our store's vibrant community with customers across town.`
+            ``
     }
 ]
 
