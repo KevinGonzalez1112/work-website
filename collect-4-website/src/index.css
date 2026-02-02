@@ -13,18 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a 
-{
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-
-a:hover 
-{
-  color: #535bf2;
-}
-
 body 
 {
   margin: 0;
@@ -37,13 +25,103 @@ body
 h1 
 {
   font-family: 'Poppins', sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.1;
-  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.2;
   letter-spacing: -0.02em;
-  color: #2D5A4A;
-  margin-bottom: 1rem;
+  /*color: #2D5A4A;
+  margin-bottom: 1rem;*/
 }
+
+h2
+{
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+/* Small */
+
+@media (min-width: 576px)
+{
+  h1 
+  {
+    font-size: 2.25rem;
+  }
+}
+
+/* Medium */
+
+@media (min-width: 768px)
+{
+  h1 
+  {
+    font-size: 2.5rem;
+  }
+}
+
+/* Large */
+
+@media (min-width: 992px)
+{
+  h1
+  {
+    font-size: 3rem;
+  }
+}
+
+/* Extra Large */
+
+@media (min-width: 1200px)
+{
+  h1 
+  {
+    font-size: 3.5rem;
+  }
+}
+
+/* Extra Extra Large */
+
+@media (min-width: 1400px) 
+{
+  h1 
+  {
+    font-size: 4rem;
+  }
+}
+
+
+
+/* Extra Large (Other Devices) */
+
+@media (min-width: 1200px)
+{
+  
+}
+/*
+  h2
+  {
+    font-size: 2.2rem;
+  }
+
+  p
+  {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 400;
+    
+    margin-bottom: 0.25vh;
+  }
+
+  li
+  {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .section-break
+  {
+    padding: 3vh;
+  }
+*/
 
 h2
 {
@@ -64,8 +142,9 @@ h3
 p, li
 {
   font-family: 'Inter', sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.6;
+  max-width: 38rem;
   color: #1A3C34;
 }
 
@@ -74,14 +153,19 @@ li strong
   font-weight: 800;
 }
 
-a 
+a, button 
 {
   font-family: 'Poppins', sans-serif;
 }
 
+a 
+{
+  text-decoration: none;
+}
+
 .section-break
 {
-  padding: 5vh;
+  padding: 1.5rem;
 }
 
 .footer-section
@@ -100,59 +184,3 @@ a
   }
 }
 
-/* Small (Phones/Tablets) */
-
-@media (min-width: 600px)
-{
-
-}
-
-/* Medium (Tablets) */
-
-@media (min-width: 768px)
-{
-
-}
-
-/* Large (Desktops) */
-
-@media (min-width: 1024px)
-{
-  h1
-  {
-    font-size: 3.5rem;
-    line-height: 1.2;
-  }
-
-  h2
-  {
-    font-size: 2.2rem;
-  }
-
-  p
-  {
-    font-size: 1rem;
-    line-height: 1.6;
-    font-weight: 400;
-    max-width: 36rem;
-    margin-bottom: 0.25vh;
-  }
-
-  li
-  {
-    font-size: 0.8rem;
-    line-height: 1.6;
-  }
-
-  .section-break
-  {
-    padding: 3vh;
-  }
-}
-
-/* Extra Large (Other Devices) */
-
-@media (min-width: 1200px)
-{
-
-}

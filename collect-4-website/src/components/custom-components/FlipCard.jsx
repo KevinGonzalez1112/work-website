@@ -18,7 +18,6 @@ const FlipCard = (props) =>
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",
-                        minHeight: "27.5vh",
                         borderRadius: "20px"
                     }}
                 >
@@ -29,7 +28,16 @@ const FlipCard = (props) =>
 
                 { /* Back Side of Flip Card */ }
 
-                <div className = "flip-card-back">
+                <div 
+                    className = "flip-card-back"
+                    style = {{ 
+                        backgroundImage: `linear-gradient(135deg, rgba(26, 60, 52, 0.75), rgba(26, 60, 52, 0.65)), url(${props.image})`,
+                        backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                        borderRadius: "20px"
+                    }}
+                >
                     <h2>{ props.title }</h2>
                     <p>{ props.description }</p>
                 </div>

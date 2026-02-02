@@ -5,6 +5,7 @@ import { useEffect } from "react";
 // Importing Custom Components 
 
 import ScrollToTop from '../components/custom-components/ScrollToTop';
+import ReusePageIntro from "../components/page-sections/ReusePageIntro";
 import RightSideContent from "../components/RightSideContent";
 import LeftSideContent from "../components/LeftSideContent";
 
@@ -29,6 +30,11 @@ const ReusePage = () =>
             <ScrollToTop />
 
             <div className = "reusepage-container">
+
+                <ReusePageIntro />
+
+                <div className = "section-break" />
+
                 {
                     reusePageData.map((feature) => (
                         feature.id % 2 === 0 ? (

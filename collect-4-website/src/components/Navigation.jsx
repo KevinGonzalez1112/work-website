@@ -46,7 +46,7 @@ import MeetTheTeamPage from "../screens/MeetTheTeamPage";
 
 const drawerWidth = 240;
 
-const navItems = ["Home", "Bikes", "Reuse", "Our-Partners", "Meet-The-Team", "Contact"];
+const navItems = ["Home", "Bikes", "Reuse", "Meet-The-Team", "Our-Partners", "Contact"];
 
 const Navigation = (props) =>
 {
@@ -78,7 +78,7 @@ const Navigation = (props) =>
                                         to = { item === "Home" ? "/" : `/${ item.toLowerCase() }` }
                                         style = {{ textDecoration: "none", color: "inherit" }}
                                     >
-                                        { item }
+                                        { item.replaceAll("-", " ") }
                                     </Link>
                                 </ListItemText>
                             </ListItemButton>
@@ -131,7 +131,8 @@ const Navigation = (props) =>
                         edge = "start"
                         onClick = { handleDrawerToggle }
                         sx = {{ 
-                            mr: 2, 
+                            ml: 'auto',
+                            mr: 0, 
                             display: { sm: "none" } 
                         }}
                     >
@@ -251,6 +252,7 @@ const Navigation = (props) =>
                 <Drawer
                     container = { container }
                     variant = "temporary"
+                    anchor = "right"
                     open = { mobileOpen }
                     onClose = { handleDrawerToggle }
                     ModalProps = {{ keepMounted: true }}

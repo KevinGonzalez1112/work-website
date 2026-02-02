@@ -42,6 +42,7 @@ const LandingSection = () =>
                     src = { StoreImg }
                     alt = "Collect 4 storefront exterior with signage"
                     className = "landing-image"
+                    loading = "lazy"
                 />
             </div>
         </div>

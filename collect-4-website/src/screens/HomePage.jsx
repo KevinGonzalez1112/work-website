@@ -21,7 +21,7 @@ const HomePage = () =>
 
     useEffect(() => {
         document.title = "Collect 4 - Home";
-    })
+    }, []);
     
     // Combining Sections that make up the Home Page content
 

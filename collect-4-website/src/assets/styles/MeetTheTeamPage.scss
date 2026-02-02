@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 4vh;
+    margin-top: 2rem;
 }
 
 .team-profiles
@@ -12,6 +12,7 @@
     width: 80vw;
     display: flex;
     flex-direction: row;
+    margin-top: 2rem;
 }
 
 .team-member-expansion-area
@@ -19,10 +20,10 @@
     width: 75vw;
     border: 2px solid #4C994C;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.05); // Slight contrast
+    background-color: rgba(255, 255, 255, 0.05); 
     animation: slideDown 0.3s ease-out;
-    padding: 2vw;
-    margin-top: 2.5vh;
+    padding: 2rem;
+    margin: 2rem 0 0 0;
 
     .expansion-box
     {
@@ -40,7 +41,35 @@
 
         .expansion-box-content
         {
-            padding-left: 2vw;
+            padding-left: 3rem;
+
+            h2 
+            {
+                margin: 0;
+                font-size: 2rem;
+            }
+
+            h3 
+            {
+                margin: 0;
+                font-size: 1.5rem;;
+            }
+
+            p 
+            {
+                margin: 2rem 0;
+                font-size: 1rem;;
+            }
+
+            button 
+            {
+                padding: 0.25rem 1rem;
+                border: none;
+                color: #133409;
+                background-color: #44BB21;
+                border-radius: 12px;
+                font-weight: bold;
+            }
         }
     }
 }
@@ -73,76 +102,7 @@
 
 @media (min-width: 1024px)
 {
-    .meet-the-team-container
-    {
-        .team-profiles
-        {
-            margin-top: 2vh;
-        }
-    }
 
-    .team-member-expansion-area
-    {
-        border: 2px solid #4CAF50;
-        background: rgba(255, 255, 255, 0.95);
-        box-shadow: 
-            0 4px 20px rgba(76, 175, 80, 0.3),
-            0 2px 10px rgba(0, 0, 0, 0.1);
-
-        .expansion-box
-        {
-            .expansion-box-image-box
-            {
-                width: 35vw;
-                height: 35vh;
-
-                .expansion-box-image
-                {
-                    width: 100%;
-                    height: 100%;
-                }
-            }
-
-            .expansion-box-content
-            {
-                width: 70vw;
-                padding-left: 2vw;
-
-                h2 
-                {
-                    margin: 0;
-                }
-
-                h3 
-                {
-                    margin: 0;
-                    font-size: 1rem;
-                }
-
-                p 
-                {
-                    margin: 0;
-                    padding: 1rem 3rem 1rem 0;
-                    font-size: 0.8rem;
-                    line-height: 1.4;
-                }
-
-                button 
-                {
-                    padding: 0.5rem 1rem 0.5rem 1rem;
-                    background-color: rgba(26, 60, 52, 0.75);
-                    border: none;
-                    color: rgba(255, 255, 255, 0.95);
-                    border-radius: 12px;
-                }
-            }
-        }
-    }
-
-    .section-break
-    {
-        padding: 4vh;
-    }
 }
 
 /* Extra Large (Other Devices) */

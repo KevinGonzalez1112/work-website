@@ -5,6 +5,7 @@ import { useEffect } from "react";
 // Importing Custom Components 
 
 import ScrollToTop from '../components/custom-components/ScrollToTop';
+import BikesPageIntro from "../components/page-sections/BikesPageIntro";
 import RightSideContent from "../components/RightSideContent";
 import LeftSideContent from "../components/LeftSideContent";
 
@@ -29,6 +30,11 @@ const BikesPage = () =>
             <ScrollToTop />
 
             <div className = "bikespage-container">
+
+                <BikesPageIntro />
+
+                <div className = "section-break" />
+
                 {
                     bikePageData.map((feature) => (
                         feature.id % 2 === 0 ? (

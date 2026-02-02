@@ -4,7 +4,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15vh;
+    margin-top: 2rem;
+
+    .bikes-page-intro 
+    {
+        text-align: center;
+
+        h2 
+        {
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    .section-break
+    {
+        padding: 3rem;
+    }
 }
 
 /* Small (Phones/Tablets) */
@@ -25,15 +40,7 @@
 
 @media (min-width: 1024px)
 {
-    .bikespage-container
-    {
-        margin-top: 8vh;
-    }
-
-    .section-break
-    {
-        padding: 6vh;
-    }
+    
 }
 
 /* Extra Large (Other Devices) */

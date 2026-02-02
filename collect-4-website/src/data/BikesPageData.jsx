@@ -28,23 +28,6 @@ const bikePageData = [
     },
     {
         id: 1,
-        title: "Bicycle Parts & Accessories",
-        image: PartsAndAcc,
-        alt: "Store bicycle parts display",
-        description: 
-            `We stock a wide range of quality bicycle parts and accessories to keep you riding smoothly. 
-            All parts are sourced from trusted brands and thoroughly inspected for reliability.`,
-        pointOne:
-            `Essential Components: We stock chains, brake pads, tyres, tubes, pedals, locks, lights, 
-            bells, pumps, and helmets for everyday cyclists.`,
-        pointTwo: 
-            `Performance Upgrades: High-quality gears, cassettes, bottom brackets, and suspension 
-            components for major overhauls.`,
-        pointThree:
-           `Rider Comfort: Enhance your journey with new saddles, grips, bar tape, and bottle racks.`
-    },
-    {
-        id: 2,
         title: "Bicycle Repairs & Servicing",
         image: Repairs,
         alt: "Mechanic working on a bike repair",
@@ -60,7 +43,24 @@ const bikePageData = [
         pointThree: 
             `Fast Turnaround: Most repairs are completed within 24–48 hours, with options to wait for minor fixes or 
             collect your bike later.`
-    }
+    },
+    {
+        id: 2,
+        title: "Bicycle Parts & Accessories",
+        image: PartsAndAcc,
+        alt: "Store bicycle parts display",
+        description: 
+            `We stock a wide range of quality bicycle parts and accessories to keep you riding smoothly. 
+            All parts are sourced from trusted brands and thoroughly inspected for reliability.`,
+        pointOne:
+            `Essential Components: We stock chains, brake pads, tyres, tubes, pedals, locks, lights, 
+            bells, pumps, and helmets for everyday cyclists.`,
+        pointTwo: 
+            `Performance Upgrades: High-quality gears, cassettes, bottom brackets, and suspension 
+            components for major overhauls.`,
+        pointThree:
+           `Rider Comfort: Enhance your journey with new saddles, grips, bar tape, and bottle racks.`
+    } 
 ]
 
 export { bikePageData };

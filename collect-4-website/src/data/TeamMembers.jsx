@@ -22,7 +22,7 @@ const teamData = [
     { 
         id: 1, 
         name: "Harrison Biddulph",
-        role: "Co-Founder",
+        role: "Co-Founder / Bicycle Mechanic",
         image: Harrison,
         intro: 
             ``
