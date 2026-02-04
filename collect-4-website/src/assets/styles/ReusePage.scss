@@ -1,6 +1,8 @@
 .reusepage-container
 {
     width: 100vw;
+    min-height: 100vh;
+    max-width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,17 +10,29 @@
 
     .reuse-page-intro 
     {
+        width: 80vw;
         text-align: center;
+        margin: 0;
 
         h2 
         {
-            margin-bottom: 1.5rem;
+            margin: 1.5rem 0;
         }
     }
 
     .section-break
     {
-        padding: 3rem;
+        padding: 1rem;
+    }
+
+    .footer-section
+    {
+        padding: 0.5rem 0;
+
+        p 
+        {
+            font-size: 0.8rem;
+        }
     }
 }
 

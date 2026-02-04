@@ -14,7 +14,7 @@ const FlipCard = (props) =>
                 <div 
                     className = "flip-card-front"
                     style = {{ 
-                        backgroundImage: `linear-gradient(135deg, rgba(76, 153, 76, 0.7), rgba(102, 184, 102, 0.6)), url(${props.image})`,
+                        backgroundImage: `url(${props.image})`,
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",

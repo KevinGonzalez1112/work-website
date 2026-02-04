@@ -20,7 +20,7 @@ const MeetTheTeamPage = () =>
     
     useEffect(() => {
         document.title = "Collect 4 - Meet The Team";
-    })
+    }, []);
 
     const [ selectedMember, setSelectedMember ] = useState(null);
 

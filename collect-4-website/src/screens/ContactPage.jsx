@@ -1,5 +1,10 @@
+// Importing React Components 
+
+import { useEffect } from "react";
+
 // Importing Custom Components 
 
+import ScrollToTop from '../components/custom-components/ScrollToTop';
 import ContactForm from "../components/ContactForm";
 
 // Importing Styling Files
@@ -8,12 +13,24 @@ import "../assets/styles/ContactPage.scss";
 
 const ContactPage = () => 
 {
-    document.title = "Collect 4 - Contact";
+    // Setting Page Title 
+        
+    useEffect(() => {
+        document.title = "Collect 4 - Contact";
+    }, []);
 
     return (
-        <div className = "contact-page">
-            <ContactForm />
-        </div>
+        <>
+            <ScrollToTop />
+
+            <div className = "contact-page">
+                <ContactForm />
+                <div className = "footer-section">
+                    <p>© 2026 by Collect 4 Reuse. All rights reserved.</p>
+                </div>
+            </div>
+        </>
+        
     )
 }
 

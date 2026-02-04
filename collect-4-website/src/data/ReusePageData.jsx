@@ -18,15 +18,17 @@ const reusePageData = [
             `We extend our mission of sustainability to the home by rescuing and restoring quality furniture pieces. 
             Our goal is to prevent well-made items from entering landfills while providing unique, affordable options 
             for your living space.`,
+        summaryOne: "Expert Restoration",
         pointOne:
-            `Expert Restoration: Every piece is carefully cleaned, repaired, and refinished to bring out its original 
-            character and ensure structural integrity.`,
+            `Every piece is carefully cleaned, repaired, and refinished to bring out its original character and ensure 
+            structural integrity.`,
+        summaryTwo: "Eco-Friendly Materials",
         pointTwo:
-            `Eco-Friendly Materials: We prioritize sustainable paints, waxes, and oils during restoration to keep 
-            your home healthy.`,
+            `We prioritize sustainable paints, waxes, and oils during restoration to keep your home healthy.`,
+        summaryThree: "Unique & Impactful",
         pointThree: 
-            `Unique & Impactful: Our constantly changing inventory offers vintage/modern pieces while supporting 
-            local circular economy initiatives and reducing carbon footprints.`
+            `Our constantly changing inventory offers vintage/modern pieces while supporting local circular economy 
+            initiatives and reducing carbon footprints.`
     },
     {
         id: 1,
@@ -37,13 +39,15 @@ const reusePageData = [
             `We provide a sustainable alternative to the rapid cycle of electronic waste by refurbishing high-quality devices. 
             Our team ensures that pre-owned technology is restored to peak performance, offering affordable and eco-friendly 
             solutions for the community.`,
+        summaryOne: "Comprehensive Testing",
         pointOne:
-            `Comprehensive Testing: Rigorous multi-point diagnostics ensure all hardware/software functions perfectly.`,
+            `Rigorous multi-point diagnostics ensure all hardware/software functions perfectly.`,
+        summaryTwo: "Data Security",
         pointTwo:
-            `Data Security: Professional-grade data wiping on donated devices protects your complete privacy.`,
+            `Professional-grade data wiping on donated devices protects your complete privacy.`,
+        summaryThree: "Performance Restoration",
         pointThree: 
-            `Performance Restoration: Battery replacements, internal cleaning, and software updates restore modern speeds 
-            while reducing e-waste.`
+            `Battery replacements, internal cleaning, and software updates restore modern speeds while reducing e-waste.`
     },
     {
         id: 2,
@@ -54,13 +58,15 @@ const reusePageData = [
             `We believe that staying active shouldn't come at a high environmental or financial cost. By collecting and 
             restoring quality gear, we make sports more accessible to the Kingston community while extending the life 
             of specialized equipment.`,
+        summaryOne: "Quality Inspection",
         pointOne:
-            `Quality Inspection: Every item is checked for safety, structural integrity, and performance.`,
+            `Every item is checked for safety, structural integrity, and performance.`,
+        summaryTwo: "Professional Sanitization",
         pointTwo:
-            `Professional Sanitization: All gear undergoes deep cleaning to ensure it is hygienic and ready for use.`,
+            `All gear undergoes deep cleaning to ensure it is hygienic and ready for use.`,
+        summaryThree: "Functional Maintenance",
         pointThree: 
-            `Functional Maintenance: We handle specialized repairs like regripping and mechanical adjustments while 
-            preventing landfill waste.`
+            `We handle specialized repairs like regripping and mechanical adjustments while preventing landfill waste.`
     },
     {
         id: 3,
@@ -70,12 +76,15 @@ const reusePageData = [
         description: 
             `We promote sustainable fashion by rescuing and revitalizing quality garments. Our curation process ensures that 
             pre-loved clothing is refreshed and ready for a new life in your wardrobe.`,
+        summaryOne: "Quality Selection",
         pointOne:
-            `Quality Selection: Each garment is inspected for fabric integrity and timeless style.`,
+            `Each garment is inspected for fabric integrity and timeless style.`,
+        summaryTwo: "Professional Laundering",
         pointTwo:
-            `Professional Laundering: All items are deep-cleaned using eco-friendly methods for immediate wear.`,
+            `All items are deep-cleaned using eco-friendly methods for immediate wear.`,
+        summaryThree: "Minor Repairs",
         pointThree: 
-            `Minor Repairs: We handle essential mending like replacing buttons or fixing seams to support circular fashion.`
+            `We handle essential mending like replacing buttons or fixing seams to support circular fashion.`
     },
     {
         id: 4,
@@ -85,14 +94,15 @@ const reusePageData = [
         description: 
             `We partner with local charities to maximize community impact through sustainable refurbishment programs that 
             benefit those in need.`,
+        summaryOne: "Quality Selection",
         pointOne:
-            `Quality Selection: Each donated item is carefully inspected for quality and suitability for redistribution.`,
+            `Each donated item is carefully inspected for quality and suitability for redistribution.`,
+        summaryTwo: "Professional Processing",
         pointTwo:
-            `Professional Processing: Items receive thorough cleaning and minor repairs to ensure they meet distribution 
-            standards.`,
+            `Items receive thorough cleaning and minor repairs to ensure they meet distribution standards.`,
+        summaryThree: "Community Impact",
         pointThree: 
-            `Community Impact: Every refurbished item sold directly supports local charitable causes and sustainability 
-            initiatives.`
+            `Every refurbished item sold directly supports local charitable causes and sustainability initiatives.`
     }
 ]
 

@@ -15,7 +15,21 @@ const RightSideContent = (props) =>
             </div>
             <div className = "text-area">
                 <h2>{ props.title }</h2>
-                { props.children }
+                <p>{ props.description }</p>
+                <div className = "details-box">
+                    <details>
+                        <summary>{ props.summaryOne }</summary>
+                        <p>{ props.pointOne }</p>
+                    </details>
+                    <details>
+                        <summary>{ props.summaryTwo }</summary>
+                        <p>{ props.pointTwo }</p>
+                    </details>
+                    <details>
+                        <summary>{ props.summaryThree }</summary>
+                        <p>{ props.pointThree }</p>
+                    </details>
+                </div>
             </div>
         </div>
     )

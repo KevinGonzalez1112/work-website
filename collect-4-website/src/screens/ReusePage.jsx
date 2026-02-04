@@ -23,7 +23,7 @@ const ReusePage = () =>
     
     useEffect(() => {
         document.title = "Collect 4 - Reuse";
-    })
+    }, []);
     
     return (
         <>
@@ -43,14 +43,14 @@ const ReusePage = () =>
                                     title = { feature.title }
                                     image = { feature.image }
                                     alt = { feature.alt }
-                                >
-                                    <p>{ feature.description }</p>
-                                    <ul>
-                                        <li>{ feature.pointOne }</li>
-                                        <li>{ feature.pointTwo }</li>
-                                        <li>{ feature.pointThree }</li>
-                                    </ul>
-                                </LeftSideContent>
+                                    description = { feature.description }
+                                    summaryOne = { feature.summaryOne }
+                                    pointOne = { feature.pointOne }
+                                    summaryTwo = { feature.summaryTwo }
+                                    pointTwo = { feature.pointTwo }
+                                    summaryThree = { feature.summaryThree }
+                                    pointThree = { feature.pointThree }
+                                />
                                 <div className = "section-break" />
                             </>
                         ) : (
@@ -59,19 +59,20 @@ const ReusePage = () =>
                                     title = { feature.title }
                                     image = { feature.image }
                                     alt = { feature.alt }
-                                >
-                                    <p>{ feature.description }</p>
-                                    <ul>
-                                        <li>{ feature.pointOne }</li>
-                                        <li>{ feature.pointTwo }</li>
-                                        <li>{ feature.pointThree }</li>
-                                    </ul>
-                                </RightSideContent>
+                                    description = { feature.description }
+                                    summaryOne = { feature.summaryOne }
+                                    pointOne = { feature.pointOne }
+                                    summaryTwo = { feature.summaryTwo }
+                                    pointTwo = { feature.pointTwo }
+                                    summaryThree = { feature.summaryThree }
+                                    pointThree = { feature.pointThree }
+                                />
                                 <div className = "section-break" />
                             </>
                         )
                     ))
                 }
+
                 <div className = "footer-section">
                     <p>© 2026 by Collect 4 Reuse. All rights reserved.</p>
                 </div>

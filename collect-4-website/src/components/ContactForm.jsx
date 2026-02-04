@@ -18,7 +18,6 @@ const ContactForm = () =>
     const [email, setEmail] = useState("");
     const [phoneNumber, setPhoneNumber] = useState("");
     const [message, setMessage] = useState("");
-    const [isSubmitted, setIsSubmitted] = useState(false);
     const [errors, setErrors] = useState({});
 
     const [state, handleFormSubmit] = useForm("mgokdpbk");
@@ -76,8 +75,6 @@ const ContactForm = () =>
         }
 
         handleFormSubmit(e);
-
-        setIsSubmitted(true);
     }
 
     if (state.succeeded)

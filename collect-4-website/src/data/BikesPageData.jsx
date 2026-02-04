@@ -16,15 +16,18 @@ const bikePageData = [
             `We gratefully accept bicycle donations from the local community and businesses 
             to give them a second life. Every refurbished bike represents saved resources and 
             renewed joy for riders of all ages.`,
+        summaryOne: "Expert Restoration",
         pointOne: 
-            `Expert Restoration: Each bike undergoes thorough cleaning, mechanical repairs, 
-            safety checks, and cosmetic restoration.`,
+            `Each bike undergoes thorough cleaning, mechanical repairs, safety checks, and 
+            cosmetic restoration.`,
+        summaryTwo: "Premium Standards",
         pointTwo: 
-            `Premium Standards: From replacing worn parts and tuning gears to painting frames, 
-            no detail is overlooked to ensure every bike meets our high standards.`,
+            `From replacing worn parts and tuning gears to painting frames, no detail is overlooked 
+            to ensure every bike meets our high standards.`,
+        summaryThree: "Sustainable Impact",
         pointThree: 
-            `Sustainable Impact: Our approach keeps quality bikes out of landfills, making cycling 
-            affordable for families, students, and commuters in the local area.`
+            `Our approach keeps quality bikes out of landfills, making cycling affordable for 
+            families, students, and commuters in the local area.`
     },
     {
         id: 1,
@@ -34,14 +37,17 @@ const bikePageData = [
         description: 
             `Bring us your bike for professional repairs by our licensed mechanic on site. We ensure your bike 
             returns safer, smoother, and ready for the road with no nasty surprises.`,
-        pointOne:
-            `Expert Diagnosis: Our workshop uses professional tools and diagnostic equipment to accurately diagnose 
-            and fix issues other shops might miss.`,
-        pointTwo:
-            `Comprehensive Stock: We handle everything from quick fixes like punctures and brake adjustments to wheel 
-            building, suspension servicing, and full restorations.`,
+        summaryOne: "Expert Restoration",
+        pointOne: 
+            `Our workshop uses professional tools and diagnostic equipment to accurately diagnose and fix issues 
+            other shops might miss.`,
+        summaryTwo: "Comprehensive Stock",
+        pointTwo: 
+            `We handle everything from quick fixes like punctures and brake adjustments to wheel building, suspension 
+            servicing, and full restorations.`,
+        summaryThree: "Fast Turnaround",
         pointThree: 
-            `Fast Turnaround: Most repairs are completed within 24–48 hours, with options to wait for minor fixes or 
+            `Most repairs are completed within 24–48 hours, with options to wait for minor fixes or 
             collect your bike later.`
     },
     {
@@ -52,14 +58,16 @@ const bikePageData = [
         description: 
             `We stock a wide range of quality bicycle parts and accessories to keep you riding smoothly. 
             All parts are sourced from trusted brands and thoroughly inspected for reliability.`,
+        summaryOne: "Essential Components",
         pointOne:
-            `Essential Components: We stock chains, brake pads, tyres, tubes, pedals, locks, lights, 
-            bells, pumps, and helmets for everyday cyclists.`,
+            `We stock chains, brake pads, tyres, tubes, pedals, locks, lights, bells, pumps, and helmets for 
+            everyday cyclists.`,
+        summaryTwo: "Performance Upgrades",
         pointTwo: 
-            `Performance Upgrades: High-quality gears, cassettes, bottom brackets, and suspension 
-            components for major overhauls.`,
+            `High-quality gears, cassettes, bottom brackets, and suspension components for major overhauls.`,
+        summaryThree: "Rider Comfort",
         pointThree:
-           `Rider Comfort: Enhance your journey with new saddles, grips, bar tape, and bottle racks.`
+           `Enhance your journey with new saddles, grips, bar tape, and bottle racks.`
     } 
 ]
 
